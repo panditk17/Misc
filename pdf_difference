@@ -1,8 +1,8 @@
 Find difference between two pdf files in latex
-Strawberry Perl install
+Install Perl
 Download latexdiff
-Copy latexdiff folder inside Strawberry/Perl/bin
-Bring .tex files (file 1 and file 2) into Strawberry/Perl/bin folder
-Go to Strawberry/Perl/bin/latexdiff folder in the windows
+Copy latexdiff folder inside Perl/bin
+Bring .tex files (file 1 and file 2) into Perl/bin folder
+Go to Perl/bin/latexdiff folder in the windows
 Run command ‘latexdiff old.tex new.tex > changed.tex'
 Changed.tex will be created in the latexdiff folder
