@@ -57,6 +57,7 @@ sed -i s/dirout/temp$P1$P2$P3$P4$P5$P6$P7$P8$P9/g ED2IN_FN$P1$P2$P3$P4$P5$P6$P7$
 sed -i s/conconfig/config_fn$P1$P2$P3$P4$P5$P6$P7$P8$P9/g ED2IN_FN$P1$P2$P3$P4$P5$P6$P7$P8$P9
 #cp ttt /home/kpandit/EDsh/ED_sla8/output/gpp_fn/ttt
 # sed -i s/ttt/tmtm/g /home/kpandit/EDsh/ED_sla8/output/gpp_fn/newr.R
+# define library path
 
 LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/kpandit/hdnew/lib ./ed_2.1-opt -f ED2IN_FN$P1$P2$P3$P4$P5$P6$P7$P8$P9
 #/cm/shared/apps/r/3.4.1/bin/Rscript /home/kpandit/EDsh/ED_sla8/output/gpp_fn/gpp_fn.hhhhhhhhR
