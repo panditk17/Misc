@@ -1,5 +1,7 @@
 # code to identify repeated measurements (trees and plots) using FIA data
 # with fusiform rust from 2013 to 2019 in Southern US
+# script to stack using random forest after doing several machine learning algorithms
+## stacking creates another relationship of predictions with individual algorithms
 
 setwd("C:/Karuns_documents/pine_disease/fusiform_hotspots")
 
